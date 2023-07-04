@@ -1,9 +1,9 @@
 name: "GitHub Actions Notifier for Slack"
 description: "Send a Slack notification when a failed build becomes green again"
-author: "Roham Mosalli"
+author: "DevOps team"
 branding:
   icon: "message-square"
   color: "green"
 runs:
   using: "docker"
-  image: "docker://rohammosalli/slack-action:v2.1.0"
+  image: "docker://rplan/slack-action:v2.1.0"
