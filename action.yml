@@ -5,5 +5,8 @@ branding:
   icon: "message-square"
   color: "green"
 runs:
+  # using: "docker"
+  # image: "docker://rplan/slack-action:v2.1.0"
   using: "docker"
-  image: "docker://rplan/slack-action:v2.1.0"
+  image: europe-west3-docker.pkg.dev/allex-artifacts/allex-artifacts-docker/rplan-slack-action:v2.1.0
+  
