@@ -6,4 +6,5 @@ branding:
   color: "green"
 runs:
   using: "docker"
-  image: image: "docker://rplan/slack-action:v2.1.0"
+  image: "docker://rplan/slack-action:v2.1.0"
+
